@@ -20,4 +20,11 @@
 		    <version>1.4.19</version>
 		</dependency>
 	</dependencies>
+	
+	<repositories> <!--Repositório que o Mavem irá pesquisar dependências-->
+        <repository>
+            <id>spring-repo</id>
+            <url>https://repo.spring.io/release</url>
+        </repository>
+    </repositories>
 </project>
